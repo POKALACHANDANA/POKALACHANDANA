@@ -1,7 +1,7 @@
 clc
 clear all
 close all
-file_path='/home/rguktvalley/CL LAB/sample-file-1.wav'
+file_path='npy.wav'
 [signal,sample_rate]=audioread(file_path)
 duration=length(signal)/sample_rate
 time=(0:length(signal)-1)/sample_rate
