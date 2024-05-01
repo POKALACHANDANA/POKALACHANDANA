@@ -1,7 +1,7 @@
 import soundfile as sf
 from matplotlib import pyplot as plt
 #load audio file
-file_path='-0\/home/rguktvalley/CL LAB/sample-file-1.wav'
+file_path='npy.wav'
 signal,sample_rate=sf.read(file_path)
 
 #calculate time array
